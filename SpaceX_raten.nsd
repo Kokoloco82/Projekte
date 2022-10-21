@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:nsd="https://structorizer.fisch.lu" version="3.32-06" preRepeat="until " postFor="to" preReturn="return" postForIn="in" preWhile="while " output="OUTPUT" input="INPUT" preFor="for" preExit="exit" preLeave="leave" ignoreCase="true" preThrow="throw" preForIn="foreach" stepFor="by" namespace="" author="semus" created="2022-05-11" changedby="semus" changed="2022-05-11" origin="Structorizer 3.32-06" text="&#34;SpaceX raten&#34;" comment="&#34;&#34;" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;Print(&#34;&#34;Hallo SpaceX&#34;&#34;)&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+		<instruction text="&#34;a =5&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+		<alternative text="&#34;(a &#62; 5)&#34;" comment="&#34;&#34;" color="ffffff" disabled="0">
+			<qTrue>
+				<instruction text="&#34;print(a, &#34;&#34;ist größer als 5!&#34;&#34;)&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+			</qTrue>
+			<qFalse>
+				<instruction text="&#34;print(&#34;&#34;a zu klein&#34;&#34;)&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+			</qFalse>
+		</alternative>
+		<instruction text="&#34;print(&#34;&#34;Ende von diesem Programm \n aber nicht von SpaceX!&#34;&#34;)&#34;" comment="&#34;&#34;" color="ffffff" rotated="0" disabled="0"></instruction>
+	</children>
+</root>
